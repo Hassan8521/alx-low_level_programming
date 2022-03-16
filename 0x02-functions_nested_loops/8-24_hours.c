@@ -47,9 +47,4 @@ while (h2 <= 2)
 }
 
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
+
