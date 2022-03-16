@@ -1,0 +1,1 @@
+File 0-putchar.c writes script that prints _putchar,followed by a new lin.
