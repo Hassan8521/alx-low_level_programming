@@ -12,9 +12,4 @@ int mul(int a, int b)
 {
 	return (a * b);
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Do
+
