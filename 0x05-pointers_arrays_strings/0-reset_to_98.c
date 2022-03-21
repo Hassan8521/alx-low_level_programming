@@ -1,17 +1,17 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 /**
- * main - Points at int and updates the value its pointing to 98. 
+ *main - takes pointer to an int as parameter and updates the value
  *
- * Return: Always 0.
- */
+ *Return: Always 0;
+*/
 int main(void)
 {
-int n;
-n = 402;
-int *p
-_putchar("%d\n", n);
+int n = 402;
+int *p;
+p = &n;
+_putchar("%d\n" * p);
 *p = 98;
-_putchar("%d\n", n);
+_putchar("\%dn" * p);
 return (0);
 }
