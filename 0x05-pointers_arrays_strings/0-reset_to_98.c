@@ -12,6 +12,6 @@ int *p;
 p = &n;
 _putchar("%d\n" * p);
 *p = 98;
-_putchar("\%dn" * p);
+_putchar("\%d\n" * p);
 return (0);
 }
