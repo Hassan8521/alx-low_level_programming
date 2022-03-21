@@ -7,9 +7,11 @@
  */
 int main(void)
 {
-int n = 402, *p = &n;
-printf("%d\n", *p);
+int n;
+n = 402;
+int *p
+_putchar("%d\n", n);
 *p = 98;
-printf("%d\n", n);
+_putchar("%d\n", n);
 return (0);
 }
