@@ -2,16 +2,11 @@
 #include "main.h"
 /**
  *main - takes pointer to an int as parameter and updates the value
- *
+ *@n: puntero
  *Return: Always 0;
 */
-int main(void)
+void reset_to_98(int *n)
 {
-int n = 402;
-int *p;
-p = &n;
-_putchar("%d\n" * p);
-*p = 98;
-_putchar("\%d\n" * p);
+*n = 98;
 return (0);
 }
