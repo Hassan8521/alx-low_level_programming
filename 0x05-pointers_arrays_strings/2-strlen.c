@@ -7,7 +7,7 @@
 *@s: points at string
 *Return: always 0
 */
-void _strlen(char *s)
+int _strlen(char *s)
 {
 len = 0;
 while (*s != '\0')
@@ -16,5 +16,4 @@ s++;
 len++;
 }
 return (len);
-  
 }
