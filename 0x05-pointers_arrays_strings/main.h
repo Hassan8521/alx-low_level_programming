@@ -12,4 +12,5 @@ void rev_string(char *s);
 int _strlen(char *s);
 
 void _puts(char *str);
+void puts_half(char *str);
 #endif
