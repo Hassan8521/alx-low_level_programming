@@ -34,3 +34,19 @@ int _strlen_recursion(char *s)
 
 	return (0);
 }
+
+/**
+ * is_palindrome - checks to see if a string is a palindrome
+ *
+ * @s: the string to check
+ *
+ * Return: 1 if it's a palindrome, 2 if it's not
+ */
+
+int is_palindrome(char *s)
+{
+	int i = 0;
+	int length = _strlen_recursion(s) - 1;
+
+	return (palindromeChecker(s, length, i));
+}
