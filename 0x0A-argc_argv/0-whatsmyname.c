@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
 /**
- *main - checks args
+ *main - write program that prints its name, followed by new line
  *
- *@argc: represent arguement count
+ *@argc: arguement count
  *
- *@argv: repreent arguement vector
+ *@argv: represent arguement vector
  *
  *Return: Always 0
  *
