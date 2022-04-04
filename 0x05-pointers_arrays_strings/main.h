@@ -8,7 +8,7 @@ int _putchar(char n);
 
 void swap_int(int *a, int *b);
 void rev_string(char *s);
-
+int _atoi(char *s);
 int _strlen(char *s);
 void print_array(int *a, int n);
 void _puts(char *str);
