@@ -1,35 +1,23 @@
-#include <stdio.h>
 #include <stdarg.h>
-#include  "variadic_functions.h"
 /**
- *sum_them_all()
- *@ap: arguement parameter
- *@args:number of arguement
- *@va_list: type for iterating arguement
- *@va_start: arguement with a va_list
- *@va_end: free a va_list
- *
- *Return: sum
+ * sum_them_all - returns the sum of all parameters
+ * @n: the numbers of arguments being passed through
+ * Return: the sum of all parameters
  */
 int sum_them_all(const unsigned int n, ...)
 {
-	va_list ap;
+	va_list valist;
+	unsigned int sum = 0, i;
 
-	va_start(ap, n);
+	if (n == 0)
+		return (0);
 
-	int i = 0, sum = 0;
+	va_start(valist, n);
+
 	for (i = 0; i < n; i++)
-		sum += va_arg (ap, int);
-	va_end(ap);
+		sum += va_arg(valist, int);
+
+	va_end(valist);
+
 	return (sum);
-}
-/**
- * main - print the value
- *
- *Return: Always 0
- */
-int main()
-{
-	printf("%d\n", add());
-	return (0);
 }
