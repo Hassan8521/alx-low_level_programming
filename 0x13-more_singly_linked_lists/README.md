@@ -1,4 +1,4 @@
-<h1>0x12. C - More singly linked lists</h1>
+<h1>0x13. C - More singly linked lists</h1>
 Learning more about singly linked lists.
 
 TASK 0
@@ -48,6 +48,7 @@ Write a function that deletes the head node of a listint_t linked list, and retu
 
 Prototype: int pop_listint(listint_t **head);
 if the linked list is empty return 0
+
 TASK 7
 
 Write a function that returns the nth node of a listint_t linked list.
@@ -55,12 +56,14 @@ Write a function that returns the nth node of a listint_t linked list.
 Prototype: listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
 where index is the index of the node, starting at 0
 if the node does not exist, return NULL
+
 TASK 8
 
 Write a function that returns the sum of all the data (n) of a listint_t linked list.
 
 Prototype: int sum_listint(listint_t *head);
 if the list is empty, return 0
+
 TASK 9
 
 Write a function that inserts a new node at a given position.
@@ -69,6 +72,7 @@ Prototype: listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx
 where idx is the index of the list where the new node should be added. Index starts at 0
 Returns: the address of the new node, or NULL if it failed
 if it is not possible to add the new node at index idx, do not add the new node and return NULL
+
 TASK 10
 
 Write a function that deletes the node at index index of a listint_t linked list.
